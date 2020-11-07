@@ -12,7 +12,6 @@ public class GreetingController {
 
     private final ObjectFactory<GreetingService> greetingServiceObjectFactory;
 
-    @Autowired
     public GreetingController(GreetingService greetingService, ObjectFactory<GreetingService> greetingServiceObjectFactory) {
         this.greetingService = greetingService;
         this.greetingServiceObjectFactory = greetingServiceObjectFactory;
