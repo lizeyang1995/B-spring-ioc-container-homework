@@ -18,4 +18,8 @@ public class Bar {
     public String name() {
         return "Bar";
     }
+
+    public void setFoo(Foo foo) {
+        this.foo = foo;
+    }
 }
